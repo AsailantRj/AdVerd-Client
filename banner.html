@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="banner.css">
+  <title>Manage Banners</title>
+</head>
+<body>
+  <h1>Manage Your Banners</h1>
+
+  <h2>Create Banner</h2>
+  <form id="create-banner-form">
+    <input type="text" id="banner-location" placeholder="Location" required>
+    <input type="text" id="banner-size" placeholder="Size" required>
+    <input type="number" id="banner-price" placeholder="Price per day" required>
+    <input type="text" id="banner-address" placeholder="Address" required>
+    <button type="submit">Create Banner</button>
+  </form>
+
+  <h2>Your Banners</h2>
+  <ul id="banner-list"></ul>
+
+  <script src="home.js"></script>
+</body>
+</html>
+
+
